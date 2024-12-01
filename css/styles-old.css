@@ -88,7 +88,7 @@
   color: #434455;
 }
 /* #endregion */
-/* #region section 1 */
+/* #region section 1 banner */
 .baner {
   background: #2e2f42;
   background-image: linear-gradient(
@@ -144,12 +144,9 @@
 }
 /* #endregion */
 
-/* #region section 2 */
+/* #region section 2 feature */
 .feature {
   padding: 120px 0;
-}
-
-.feature-container {
 }
 
 .feature-list {
@@ -175,7 +172,7 @@
 }
 /* #endregion */
 
-/* #region section 3 */
+/* #region section 3 team */
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -228,7 +225,7 @@
 }
 /* #endregion */
 
-/* #region section 4  */
+/* #region section 4 portfolio  */
 .portfolio {
   padding: 120px 0;
 }

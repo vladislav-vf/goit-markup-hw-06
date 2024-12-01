@@ -48,15 +48,15 @@
             </li>
           </ul>
         </address>
-        <button class="button-mobile" type="button">
+        <button class="button-mobile" type="button" data-menu-open>
           <svg class="button-mobile-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
 <div class="container mobile-menu-container">
-  <button class="mobile-menu-close" type="button">
+  <button class="mobile-menu-close" type="button" data-menu-close>
     <svg class="icon-close" width="8" height="8">
     <use href="./images/icons-modal.svg#icon-close"></use>
   </svg></button>
@@ -113,14 +113,14 @@
     </header>
     <main class="main">
       <!-- section 1 -->
-      <section class="baner hidden">
+      <section class="baner">
         <div class="container baner-container">
           <h1 class="heading">Effective Solutions for Your Business</h1>
-          <button class="baner-button" type="button">Order Service</button>
+          <button class="baner-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <!--section 2  -->
-      <section class="feature hidden">
+      <section class="feature">
         <div class="container feature-container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="feature-list">
@@ -176,14 +176,12 @@
         </div>
       </section>
       <!--section 3  -->
-      <section class="team hidden">
+      <section class="team">
         <div class="container team-container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img
-                src="./images/img-9.jpg"
-                alt="Photo Mark Guerrero"
+              <img srcset="./images/img/img1@2x.jpg 2x, ./images/img/img1.jpg 1x" src="./images/img-9.jpg" alt="Photo Mark Guerrero"
                 width="264"
               />
               <div class="card-text">
@@ -220,7 +218,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/img-8.jpg" alt="Photo Tom Ford" width="264" />
+              <img srcset="./images/img/img2@2x.jpg 2x, ./images/img/img2.jpg 1x" src="./images/img-8.jpg" alt="Photo Tom Ford" width="264" />
               <div class="card-text">
                 <h3 class="team-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -255,7 +253,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+              <img srcset="./images/img/img3@2x.jpg 2x, ./images/img/img3.jpg 1x"
                 src="./images/img-7.jpg"
                 alt="Photo Camila Garcia"
                 width="264"
@@ -294,7 +292,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+              <img srcset="./images/img/img4@2x.jpg 2x, ./images/img/img4.jpg 1x"
                 src="./images/img-6.jpg"
                 alt="Photo Daniel Wilson"
                 width="264"
@@ -336,13 +334,13 @@
         </div>
       </section>
       <!--section 4  -->
-      <section class="portfolio hidden">
+      <section class="portfolio">
         <div class="container portfolio-container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-image">
-                <img
+                <img srcset="./images/card/img1@2x.jpg 2x, ./images/card/img1.jpg 1x"
                   src="./images/img-5.jpg"
                   alt="Pict Banking App "
                   width="360"
@@ -354,13 +352,13 @@
                 </p>
               </div>
               <div class="portfolio-text">
-                <h3 class="section-subtitle">Banking App</h3>
-                <p class="section-text">App</p>
+                <h3 class="section-subtitle mobile-sub">Banking App</h3>
+                <p class="section-text mobile-text">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image">
-                <img
+                <img srcset="./images/card/img2@2x.jpg 2x, ./images/card/img2.jpg 1x"
                   src="./images/img-4.jpg"
                   alt="Pict Cashless Payment"
                   width="360"
@@ -372,13 +370,13 @@
                 </p>
               </div>
               <div class="portfolio-text">
-                <h3 class="section-subtitle">Cashless Payment</h3>
-                <p class="section-text">Marketing</p>
+                <h3 class="section-subtitle mobile-sub">Cashless Payment</h3>
+                <p class="section-text mobile-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image">
-                <img
+                <img srcset="./images/card/img3@2x.jpg 2x, ./images/card/img3.jpg 1x"
                   src="./images/img-3.jpg"
                   alt="Pict Meditation App"
                   width="360"
@@ -390,13 +388,13 @@
                 </p>
               </div>
               <div class="portfolio-text">
-                <h3 class="section-subtitle">Meditation App</h3>
-                <p class="section-text">App</p>
+                <h3 class="section-subtitle mobile-sub">Meditation App</h3>
+                <p class="section-text mobile-text">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image">
-                <img
+                <img srcset="./images/card/img4@2x.jpg 2x, ./images/card/img4.jpg 1x"
                   src="./images/img-2.jpg"
                   alt="Pict Taxi Service"
                   width="360"
@@ -408,13 +406,13 @@
                 </p>
               </div>
               <div class="portfolio-text">
-                <h3 class="section-subtitle">Taxi Service</h3>
-                <p class="section-text">Marketing</p>
+                <h3 class="section-subtitle mobile-sub">Taxi Service</h3>
+                <p class="section-text mobile-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image">
-                <img
+                <img srcset="./images/card/img5@2x.jpg 2x, ./images/card/img5.jpg 1x"
                   src="./images/img-1.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -426,13 +424,14 @@
                 </p>
               </div>
               <div class="portfolio-text">
-                <h3 class="section-subtitle">Screen Illustrations</h3>
-                <p class="section-text">Design</p>
+                <h3 class="section-subtitle mobile-sub">Screen Illustrations</h3>
+                <p class="section-text mobile-text">Design</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image">
-                <img src="./images/img.jpg" alt="Online Courses" width="360" />
+                <img srcset="./images/card/img6@2x.jpg 2x, ./images/card/img6.jpg 1x" 
+                src="./images/img.jpg" alt="Online Courses" width="360" />
                 <p class="overlay-portfolio">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -440,15 +439,15 @@
                 </p>
               </div>
               <div class="portfolio-text">
-                <h3 class="section-subtitle">Online Courses</h3>
-                <p class="section-text">Marketing</p>
+                <h3 class="section-subtitle mobile-sub">Online Courses</h3>
+                <p class="section-text mobile-text">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer hidden">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-slogan">
           <a class="logo footer-logo" href="./index.html"
@@ -511,9 +510,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
-      <div class="modal hidden">
-        <button class="modal-close" type="button">
+    <div class="backdrop" data-modal>
+      <div class="modal" >
+        <button class="modal-close" type="button" data-modal-close>
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons-modal.svg#icon-close"></use>
           </svg>
@@ -593,5 +592,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
