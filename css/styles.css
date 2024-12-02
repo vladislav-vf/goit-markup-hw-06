@@ -290,7 +290,6 @@ button {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 40px;
-  
 }
 .icon-soc {
   fill: #f4f4fd;
@@ -389,7 +388,7 @@ button {
   }
   .baner {
     padding-top: 112px;
-  padding-bottom: 204px;
+    padding-bottom: 204px;
     height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -425,7 +424,7 @@ button {
       ),
       url(../images/hero/people-office1desk.jpg);
   }
-   .heading {
+  .heading {
     padding-bottom: 48px;
   }
   .baner-button:focus,
@@ -436,14 +435,14 @@ button {
 @media only screen and (min-width: 768px),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-    .baner{
-      background-image: linear-gradient(
+  .baner {
+    background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/people-office1desk@2x.jpg);
-    }
   }
+}
 /* #endregion */
 /* #region feature */
 .feature {
@@ -518,14 +517,12 @@ button {
     border-radius: 4px;
     background-color: rgb(244, 244, 253);
     border-color: #8e8f99;
-    
   }
   .section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    
   }
   .section-subtitle:hover {
     transform: translateY(0%);
@@ -610,10 +607,10 @@ button {
     align-items: center;
     gap: 24px;
   }
-  /* .link-social:hover,
+  .link-social:hover,
   .link-social:focus {
-    background-color: #31d0aa;
-  } */
+    background-color: #404bbf;
+  }
 }
 /* #endregion */
 /* #region portfolio */
@@ -823,9 +820,9 @@ button {
 }
 @media only screen and (min-width: 1158px) {
   .icon-green:hover,
-.icon-green:focus {
-  background-color: #31d0aa;
-}
+  .icon-green:focus {
+    background-color: #31d0aa;
+  }
   .footer-container {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -843,7 +840,6 @@ button {
   }
   .button-footer:hover {
     background: #404bbf;
-
   }
 }
 /* #endregion */
