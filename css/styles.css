@@ -274,6 +274,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 48px;
 }
 .mobile-contacts-link {
   font-weight: 500;
@@ -289,7 +290,7 @@ button {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 40px;
-  padding-top: 48px;
+  
 }
 .icon-soc {
   fill: #f4f4fd;
@@ -327,9 +328,9 @@ button {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/Dark-bg_mob.jpg);
-  padding: 72px 52px 200px;
+  padding-top: 72px;
+  padding-bottom: 200px;
   height: 432px;
-  margin-bottom: 96px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -346,8 +347,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin: 0px auto 72px;
-  max-width: 496px;
+  max-width: 216px;
+  padding-bottom: 72px;
 }
 .baner-button {
   background: #4d5ae5;
@@ -383,10 +384,12 @@ button {
   .heading {
     font-size: 56px;
     line-height: 1.07;
-    margin: 0px auto 36px;
     max-width: 496px;
+    padding-bottom: 36px;
   }
   .baner {
+    padding-top: 112px;
+  padding-bottom: 204px;
     height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -410,7 +413,9 @@ button {
 
 @media screen and (min-width: 1158px) {
   .baner {
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    height: 432px;
     max-width: 1440px;
     margin: auto;
     height: 600px;
@@ -421,7 +426,7 @@ button {
       url(../images/hero/people-office1desk.jpg);
   }
    .heading {
-    margin: 0px auto 48px;
+    padding-bottom: 48px;
   }
   .baner-button:focus,
   .baner-button:hover {
@@ -506,20 +511,21 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
     width: 264px;
     height: 112px;
     border: 1px solid rgb(142, 143, 153);
     border-radius: 4px;
     background-color: rgb(244, 244, 253);
     border-color: #8e8f99;
-    margin-bottom: 8px;
+    
   }
   .section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    margin-bottom: 8px;
+    
   }
   .section-subtitle:hover {
     transform: translateY(0%);
@@ -604,6 +610,10 @@ button {
     align-items: center;
     gap: 24px;
   }
+  /* .link-social:hover,
+  .link-social:focus {
+    background-color: #31d0aa;
+  } */
 }
 /* #endregion */
 /* #region portfolio */
@@ -739,6 +749,7 @@ button {
   display: flex;
   gap: 24px;
   flex-direction: column;
+  align-items: center;
 }
 .form-box {
   opacity: 0.3;
@@ -765,7 +776,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   font-size: 16px;
   font-weight: 500;
@@ -782,6 +793,9 @@ button {
   fill: #f4f4fd;
 }
 @media only screen and (min-width: 768px) {
+  .email {
+    width: 264px;
+  }
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -808,6 +822,10 @@ button {
   }
 }
 @media only screen and (min-width: 1158px) {
+  .icon-green:hover,
+.icon-green:focus {
+  background-color: #31d0aa;
+}
   .footer-container {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -822,6 +840,10 @@ button {
   }
   .email {
     max-width: 264px;
+  }
+  .button-footer:hover {
+    background: #404bbf;
+
   }
 }
 /* #endregion */
